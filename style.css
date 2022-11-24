@@ -1,0 +1,94 @@
+*{
+    margin: 0; padding: 0;
+}
+
+body{
+    font-family: "Raleway", "Helvetica", "sans-serif";
+}
+
+header{
+    background-image: url(../Transi/img/dark_tint.png) , url(../Transi/img/bokeh_car_lights_bg.jpg);
+    background-size: 1368px;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.nav{
+    margin: 1.8em; margin-right: 4em;
+}
+
+nav li{
+    display: inline-block; margin-left:  30px;
+}
+
+nav li a{
+    color: gray; font-size: 1.1em; font-weight: lighter;
+}
+
+nav li:not(:last-child)> a:hover{
+    color: white; transition: ease-in-out 0.2s;
+}
+
+
+
+nav li.sign{
+    border-radius: 20px; border-color: white; background-color: white; padding: 8px; padding-left: 15px; padding-right: 15px;
+}
+
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.header-mid{
+display: flex; flex-direction: column; align-items: center;
+margin-top: 7em;
+}
+
+h1.transit {
+    color: white; font-size: 1.25em; margin-left: 20px;
+    margin-left: 2.4em; margin-top: 1.8em;
+}
+
+h1.transit a{
+    color: white;
+}
+
+h1.transit a:hover{
+    text-decoration: underline;
+}
+
+.header-mid h1{
+    font-size: 3.6em; margin-bottom: 0.5em; color: white;
+
+
+}
+
+.header-mid p{ 
+    font-size: 1.4em; margin-bottom: 1.75em; color: white;
+    
+}
+
+.btn{
+    margin-bottom: 12em;  border-radius: 30px; border-color: #51b6d9; background-color: #51b6d9;
+    padding: 15px 40px 15px 40px;
+} 
+
+.btn:hover{
+    background-color: #1a9dc9; transition: ease-in-out 0.2s;
+}
+.btn a{
+    font-size: 1.35em;
+    font-weight: 400 ;
+    color: white; 
+    
+}
+
+
