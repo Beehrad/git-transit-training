@@ -78,7 +78,7 @@ h1.transit a:hover{
     
 }
 
-.btn{
+.header-mid .btn{
     margin-bottom: 12em;  border-radius: 30px; border-color: #51b6d9; background-color: #51b6d9;
     padding: 15px 40px 15px 40px;
 } 
@@ -165,10 +165,9 @@ h1.transit a:hover{
                         /* section 2 */
 
 .sec2{
-    border-bottom: 1px solid rgba(144, 144, 144, 0.25); 
     background-color: white;
     padding-top: 6em;
-    
+    margin-bottom: 5em;
 }
 
 .box p{
@@ -223,6 +222,68 @@ h1.transit a:hover{
     color: #444;
 }
 
+.last .btn{
+    border-radius: 30px; border-color: #51b6d9; background-color: #51b6d9;
+    padding: 15px 40px 15px 40px;
+}
 
+.sec3{
+    background-color: #3cadd4;
+    display: flex; flex-direction: column; align-items: center;
+    padding-top: 5em;
+
+}
+
+.sec3 h3{
+    color: white;
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+.sec3 p{
+    color: white;
+    font-size: 1.5em;
+}
+
+.form>*{
+    margin: 10px;
+    border-radius: 7px;
+}
+
+.form{
+    align-items: center;
+    position: relative;
+}
+
+#name{
+    width: 20em;
+    height: 2.75em;
+    padding-left: 15px;
+}
+
+#email{
+    width: 20em;
+    height: 2.75em;
+    padding-left: 15px;
+}
+
+#message{
+    width: 44.5em;
+    height: 13em;
+}
+
+#submit{
+    position: relative;
+    background-color: #31333a;
+    color: white;
+    width: max-content;
+    height: 2.85em;
+    border-radius: 30px;
+    font-size: 1.35em;
+    padding: 0 2em;
+    cursor: pointer;
+    left: 30%;
+    margin-top: 15px;
+}
 
 
