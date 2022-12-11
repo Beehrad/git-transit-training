@@ -3,10 +3,18 @@
 }
 
 body{
-    font-family: "Raleway", "Helvetica", "sans-serif";
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
 }
 
                         /* header */
+
+.container{
+    width: 100%;
+    max-width:1368px ;
+    font-size: 1em;
+    margin:0 auto ;
+}
 
 header{
     background-image: url(../Transi/img/dark_tint.png) , url(../Transi/img/bokeh_car_lights_bg.jpg);
@@ -51,7 +59,7 @@ nav li.sign{
 
 .header-mid{
 display: flex; flex-direction: column; align-items: center;
-margin-top: 7em;
+margin-top: 7em; justify-content: center;
 }
 
 h1.transit {
@@ -223,13 +231,15 @@ h1.transit a:hover{
 
 .last{
     display: flex; flex-direction: column; align-items: center;
-    text-align: center;
-    margin-left: 250px; margin-right: 250px;
+    justify-content: center;
+    margin: auto;
+    max-width: 900px;
 }
 
 .last p{
     margin-bottom: 3em;
     color: #444;
+    text-align: center;
 }
 
 .last .btn{
@@ -346,11 +356,13 @@ footer div ul a:hover{
 footer .final{
     display: flex;
     justify-content: space-between;
-    position: relative;
+    margin: auto;
+    
 }
 
-footer .final div{
-    margin-left: 5em;
+footer .final> div{
+    margin: auto;
+    margin-top: 0;
 }
 footer .final ul{
     display: flex;
@@ -365,11 +377,11 @@ footer .final div a{
     color: #858585;
 }
 
+footer> .final> .Untitled{
+    margin-left: 30px;
+}
 footer> .final> .icn{
-    position: relative;
-    right: -11em;
-    top: -1em;
-    margin-bottom: 4em;
+    margin-right: 30px;
 }
 
 footer> .final> .icn li{
@@ -404,3 +416,116 @@ footer> .final> .icn li a{
     color: white;
 }
 
+          /* media queri */
+
+@media screen and (max-width: 900px){
+    .box{
+        display: flex;
+        margin-right: 1em;
+        margin-left: 1em;
+        
+    }
+
+    .person{
+        margin-left: 40px; margin-right: 40px;
+    
+    }
+
+
+.box> div{
+    margin: 10px;
+    
+}
+
+form{
+    
+    width: 70%;
+}
+
+    
+}
+            
+@media screen and (max-width: 600px) {
+
+    .header-top{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    nav ul{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 5px;
+    }
+
+    nav li{
+    margin-bottom: 0px;
+    }
+
+    .nav{
+    margin-right: 2em;
+    }
+
+.header-mid h1{
+    font-size: 2.7em; margin-bottom: 0.5em; color: white;
+    text-align: center;
+}
+
+.header-mid p{ 
+    font-size: 1.4em; margin-bottom: 1.75em; color: white;
+    text-align: center;
+    
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.person ul{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.person li{
+    margin-bottom: 10px;
+}
+
+
+form{
+    
+    width: 80%;
+}
+
+
+footer> .clmn{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+
+footer> .clmn >div{
+    margin-bottom: 20px;
+    
+}
+
+footer .final{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer> .final> .icn{
+    margin-right: 0;
+}
+
+footer .final ul{
+    margin-bottom: 40px;
+}
+}
